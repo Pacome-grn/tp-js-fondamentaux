@@ -14,3 +14,14 @@ age = 16
 } else {
     console.log("Accès refusé. Mot de passe incorrect.");
 }
+const moi = {
+    prenom: "Pacôme",
+    nom: "Garnier",
+    age: 15,
+    competences: ["HTML", "CSS"]
+};
+ console.log(moi)
+console.log(moi.prenom); // Affiche "VotrePrénom"
+moi.age = 19
+moi.ville = "Lyon"
+console.log(moi)
